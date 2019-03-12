@@ -53,15 +53,28 @@ p {
   color: #008080;
 }
 
-.work {
-  padding-top: 60px;
-  margin-top: -60px;
-}
-
 .work .work-header {
   margin-top: 50px;
   color: #008080;
   font-weight: normal;
+}
+
+.work-header {
+  text-align: center;
+}
+
+.tec-header {
+  color: #008080;
+  font-weight: normal;
+  text-align: center;
+}
+  
+.tecs {
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .project {
@@ -70,11 +83,23 @@ p {
 
   height: 20%;
   width: 40%;
-  margin: 40px 100px;
 }
 
+#tecnologies {
+  background-color: #c8f7c5;
+  height: 60%;
+  padding-left: 10%;
+}
+
+#projects {
+  margin-top: 5%;
+}
 .project-title {
   font-weight: bold;
+}
+
+.tec-header {
+  padding-top: 5%;
 }
 
 .contact {
